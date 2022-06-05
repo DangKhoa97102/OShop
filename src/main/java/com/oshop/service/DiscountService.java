@@ -2,6 +2,7 @@ package com.oshop.service;
 
 import java.util.List;
 
+import com.oshop.dto.DiscountDTO;
 import com.oshop.entity.Discount;
 
 public interface DiscountService {

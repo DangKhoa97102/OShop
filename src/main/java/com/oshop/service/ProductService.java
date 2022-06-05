@@ -4,6 +4,8 @@ import java.util.List;
 
 import org.springframework.data.domain.Page;
 
+import com.oshop.dto.ProductDTO;
+import com.oshop.dto.ProductUpdated;
 import com.oshop.entity.Product;
 
 public interface ProductService {

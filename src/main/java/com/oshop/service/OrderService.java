@@ -3,6 +3,8 @@ package com.oshop.service;
 import java.util.Date;
 import java.util.List;
 
+import com.oshop.dto.OrderReport;
+import com.oshop.dto.SaleReport;
 import com.oshop.entity.Order;
 
 public interface OrderService {

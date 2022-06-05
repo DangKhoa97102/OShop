@@ -9,6 +9,7 @@ import java.util.Set;
 import javax.persistence.*;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.oshop.dto.ProductUpdated;
 
 import lombok.*;
 

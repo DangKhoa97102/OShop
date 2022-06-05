@@ -6,6 +6,7 @@ import java.util.Locale;
 
 import javax.mail.MessagingException;
 
+import com.oshop.dto.UserDTO;
 import com.oshop.entity.User;
 
 public interface UserService {
