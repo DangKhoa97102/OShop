@@ -5,6 +5,7 @@ import javax.validation.ConstraintValidatorContext;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
+import com.oshop.repository.UserRepository;
 import com.oshop.validator.annotation.NotExistsUsername;
 
 public class NotExistsUsernameValidator implements ConstraintValidator<NotExistsUsername, String> {

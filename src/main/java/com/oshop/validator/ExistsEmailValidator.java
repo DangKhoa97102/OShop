@@ -8,6 +8,7 @@ import javax.validation.ConstraintValidatorContext;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
+import com.oshop.repository.UserRepository;
 import com.oshop.validator.annotation.ExistsEmail;
 
 public class ExistsEmailValidator implements ConstraintValidator<ExistsEmail, String> {

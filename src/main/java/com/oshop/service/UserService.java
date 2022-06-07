@@ -7,6 +7,8 @@ import java.util.Locale;
 import javax.mail.MessagingException;
 
 import com.oshop.dto.UserDTO;
+import com.oshop.dto.user.Profile;
+import com.oshop.dto.user.Register;
 import com.oshop.entity.User;
 
 public interface UserService {
