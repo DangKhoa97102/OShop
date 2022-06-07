@@ -10,6 +10,8 @@ import com.oshop.dto.UserDTO;
 import com.oshop.dto.user.Profile;
 import com.oshop.dto.user.Register;
 import com.oshop.entity.User;
+import com.oshop.exception.UserAlreadyExistException;
+import com.oshop.exception.UserNotFoundException;
 
 public interface UserService {
 	
